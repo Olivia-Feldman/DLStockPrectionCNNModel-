@@ -12,3 +12,6 @@
 [DCNN github with code](https://github.com/nayash/stock_cnn_blog_pub)
 
 [Stock Prediction using Machine Learning and Python](https://www.youtube.com/watch?v=lncoLfue_Y4&ab_channel=edureka%21)
+
+
+https://towardsdatascience.com/stock-market-action-prediction-with-convnet-8689238feae3
