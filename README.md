@@ -19,3 +19,14 @@
 
 [Convolutional Neural Networks with TensorFlow - Deep Learning with Neural Networks 13](https://www.youtube.com/watch?v=mynJtLhhcXk)
 
+[Deep Learning with Python, TensorFlow, and Keras tutorial](https://www.youtube.com/watch?v=wQ8BIBpya2k&list=PLQVvvaa0QuDfhTox0AjmQ6tvTgMBZBEXN)
+
+## deeplizard
+
+[Image Preparation for Convolutional Neural Networks with TensorFlow's Keras API](https://www.youtube.com/watch?v=_L2uYfVV48I)
+
+[Build and Train a Convolutional Neural Network with TensorFlow's Keras API](https://www.youtube.com/watch?v=3V9YFPfgyAY)
+
+[Convolutional Neural Network Predictions with TensorFlow's Keras API](https://www.youtube.com/watch?v=e47ISlpYFok)
+
+[Build a Fine-Tuned Neural Network with TensorFlow's Keras API](https://www.youtube.com/watch?v=3ou0KYtDlOI)
