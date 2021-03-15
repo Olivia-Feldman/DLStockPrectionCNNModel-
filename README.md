@@ -12,3 +12,5 @@
 [DCNN github with code](https://github.com/nayash/stock_cnn_blog_pub)
 
 [Stock Prediction using Machine Learning and Python](https://www.youtube.com/watch?v=lncoLfue_Y4&ab_channel=edureka%21)
+
+https://github.com/huseinzol05/Stock-Prediction-Models/blob/master/deep-learning/1.lstm.ipynb --> Stock prediction code using LSTM
