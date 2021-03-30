@@ -10,7 +10,7 @@ https://finance.yahoo.com/quote/QQQ/history?p=QQQ
 Dependencies: 
  
   * pandas -> used to extract stock data, 
-  * numpy ->  used to perform basic operations and manipulate data 
+  * numpy ->  used to manipulate data 
   * matplotlib -> used to plot data and images 
   * Sklearn -> used to evalute model performance
   * tensorflow.keras -> used to build CNN model 
