@@ -1,4 +1,4 @@
-# DLStockPrectionCNNModel
+# Financial Trading with Deep CNN
 
 ## Model - Deep Convolutional Neural Network
 
@@ -9,4 +9,4 @@
 
 [Stock Buy/Sell Prediction Using Convolutional Neural Network](https://towardsdatascience.com/stock-market-action-prediction-with-convnet-8689238feae3) - Toward data science article
 
-[DCNN github with code](https://github.com/nayash/stock_cnn_blog_pub)
+
