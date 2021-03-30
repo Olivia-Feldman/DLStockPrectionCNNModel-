@@ -1,7 +1,7 @@
 # Financial Trading with Deep CNN
 
 
-This colab notebook implements a CNN to predict whether to buy,hold or sell stock using a time series to image conversion approach used in the paper listed below. The code is extened off of the ideas in the paper aswell as some deviations from other resources. 
+This python notebook implements a CNN to predict whether to buy,hold or sell stock using a time series to image conversion approach used in the paper listed below. The code is extened off of the ideas in the paper aswell as some deviations from other resources. 
 
 Data: 
 
@@ -17,14 +17,13 @@ Dependencies:
 
 Data Generation and Preprocessing: 
 
-QQQ is an ETF that contains 100 of NASDAQ's largest companies stock. A five year QQQ stock data from Yahoo! finance is used for our model and contains daily stock data including; timestamps, open price, high price, low price, close price and volume. This data is then used with technical indicators to extract important stock information like, trend, voltality, momentum and volume to generate a 15x15 image to input into our CNN model. 
+QQQ is an ETF that contains 100 of NASDAQ's largest companies stock. A five year QQQ stock data from Yahoo! finance is used for our model and contains daily stock data including; timestamps, open price, high price, low price, close price and volume. This data is then used with 15 technical indicators to extract important stock information like, trend, voltality, momentum and volume to generate a 15x15 image to input into our CNN model. 
 
-To generate our three class label we use a window size of 11 days to determine the max, min and middle prices during those 11 days. Based on these values we set the lables of sell(max), buy(min) or hold(middle) respectivly. 
+To generate our three class labels we use a window size of 11 days to determine the max, min and middle prices during these 11 days. Based on these values we assign the lables of sell(max), buy(min) or hold(middle) respectivly. 
 
-A period of 1-26 days was used to iterated through each indicator and storing data for each period. A feature selection method is then used to select the best indicators with respect to the time period. This is useful to determine which indicators at what time period are best for our model. 
+A period of 1-26 days was used to iterated through each indicator and storing data for each period. A feature selection method is then used to select the best indicators with respect to the time period. This is useful to determine which indicators at what time frame are best for our model. 
 
 The x_test and x_train are then reshaped to a 15x15 image that will be the input to the CNN model. 
-
 
 
 
