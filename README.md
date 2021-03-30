@@ -5,6 +5,9 @@ This python notebook implements a CNN to predict whether to buy,hold or sell sto
 
 Data: 
 
+Our code downloads price data with a HTTPS GET request and pulls the stock based on the ticker. 
+A CVS file of QQQ stock of one year is providede to visualize all the daily stock prices within that year.
+
 https://finance.yahoo.com/quote/QQQ/history?p=QQQ
 
 Dependencies: 
@@ -12,7 +15,7 @@ Dependencies:
   * pandas -> used to extract stock data, 
   * numpy ->  used to manipulate data 
   * matplotlib -> used to plot data and images 
-  * Sklearn -> used to evalute model performance
+  * Sklearn -> used to evalute model performance, feature selection and normalization of data 
   * tensorflow.keras -> used to build CNN model 
 
 Data Generation and Preprocessing: 
