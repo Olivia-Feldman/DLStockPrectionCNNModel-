@@ -18,7 +18,7 @@ https://finance.yahoo.com/quote/QQQ/history?p=QQQ
   * Sklearn -> used to evalute model performance, feature selection and normalization of data 
   * tensorflow.keras -> used to build CNN model 
 
-#Data Generation and Preprocessing: 
+# Data Generation and Preprocessing: 
 
 QQQ is an ETF that contains 100 of NASDAQ's largest companies stock. A five year QQQ stock data from Yahoo! finance is used for our model and contains daily stock data including; timestamps, open price, high price, low price, close price and volume. This data is then used with 15 technical indicators to extract important stock information like, trend, voltality, momentum and volume to generate a 15x15 image to input into our CNN model. 
 
