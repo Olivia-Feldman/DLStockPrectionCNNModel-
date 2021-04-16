@@ -52,6 +52,6 @@ the code implements the pandas-ta library to calculate indicators using our yaho
 
 [Stock Buy/Sell Prediction Using Convolutional Neural Network](https://towardsdatascience.com/stock-market-action-prediction-with-convnet-8689238feae3) - Toward data science article
 
-[pandas-ta library] https://github.com/twopirllc/pandas-ta
+[pandas-ta library] (https://github.com/twopirllc/pandas-ta) 
 
 
