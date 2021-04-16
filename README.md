@@ -29,6 +29,21 @@ A period of 1-26 days was used to iterated through each indicator and storing da
 The x_test and x_train are then reshaped to a 15x15 image that will be the input to the CNN model. 
 
 
+Technical Indicators: 
+
+Technical indicators were use extract import stock information over varations of time frames. These indicators will provide information like, momentum, voltality, trend, overlap and volume of the stock over a certain time frame. In our code we have included; 
+  
+   Trend indicators: DEMA, CCI,MACD, ROC and EMA 
+   
+   Volatility indicators: ATR, BB, and KC 
+   
+   Momentum indicators: WR, RSI, SR, MFI, trix,cmo kst and ppo
+   
+   Volume indicators: EMV, FI,OBV,cmf
+   
+   Overlap indicators: hmw, tema
+
+the code implements the pandas-ta library to calculate indicators using our yahoo finance dataframe. A feature selection is used to determine the best indicators for our model to create our 15X15 image that will be our input for our cnn. (explain) 
 
 
 Resources for DCNN:
@@ -36,5 +51,7 @@ Resources for DCNN:
 [Algorithmic Financial Trading with Deep Convolutional Neural Networks: Time Series to Image Conversion Approach](https://www.researchgate.net/publication/324802031_Algorithmic_Financial_Trading_with_Deep_Convolutional_Neural_Networks_Time_Series_to_Image_Conversion_Approach)
 
 [Stock Buy/Sell Prediction Using Convolutional Neural Network](https://towardsdatascience.com/stock-market-action-prediction-with-convnet-8689238feae3) - Toward data science article
+
+[pandas-ta library] https://github.com/twopirllc/pandas-ta
 
 
