@@ -3,14 +3,14 @@
 
 This python notebook implements a CNN to predict whether to buy,hold or sell stock using a time series to image conversion approach used in the paper listed below. The code is extened off of the ideas in the paper aswell as some deviations from other resources. 
 
-#Data: 
+# Data: 
 
 Our code downloads price data with a HTTPS GET request and pulls the stock based on the ticker. 
 A CVS file of QQQ stock of one year is providede to visualize all the daily stock prices within that year.
 
 https://finance.yahoo.com/quote/QQQ/history?p=QQQ
 
-#Dependencies: 
+# Dependencies: 
  
   * pandas -> used to extract stock data, 
   * numpy ->  used to manipulate data 
@@ -29,7 +29,7 @@ A period of 1-26 days was used to iterated through each indicator and storing da
 The x_test and x_train are then reshaped to a 15x15 image that will be the input to the CNN model. 
 
 
-#Technical Indicators: 
+# Technical Indicators: 
 
 Technical indicators were use extract import stock information over varations of time frames. These indicators will provide information like, momentum, voltality, trend, overlap and volume of the stock over a certain time frame. In our code we have included; 
   
@@ -46,7 +46,7 @@ Technical indicators were use extract import stock information over varations of
 the code implements the pandas-ta library to calculate indicators using our yahoo finance dataframe. A feature selection is used to determine the best indicators for our model to create our 15X15 image that will be our input for our cnn. (explain) 
 
 
-#Resources for DCNN:
+# Resources for DCNN:
 
 [Algorithmic Financial Trading with Deep Convolutional Neural Networks: Time Series to Image Conversion Approach](https://www.researchgate.net/publication/324802031_Algorithmic_Financial_Trading_with_Deep_Convolutional_Neural_Networks_Time_Series_to_Image_Conversion_Approach)
 
