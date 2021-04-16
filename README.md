@@ -46,6 +46,14 @@ Technical indicators were use extract import stock information over varations of
 the code implements the pandas-ta library to calculate indicators using our yahoo finance dataframe. A feature selection is used to determine the best indicators for our model to create our 15X15 image that will be our input for our cnn. (explain) 
 
 
+# Framework of Model 
+
+# Evaluation of Model 
+
+
+
+
+
 # Resources for DCNN:
 
 [Algorithmic Financial Trading with Deep Convolutional Neural Networks: Time Series to Image Conversion Approach](https://www.researchgate.net/publication/324802031_Algorithmic_Financial_Trading_with_Deep_Convolutional_Neural_Networks_Time_Series_to_Image_Conversion_Approach)
