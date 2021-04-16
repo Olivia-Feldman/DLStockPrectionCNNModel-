@@ -37,11 +37,11 @@ Technical indicators were use extract import stock information over varations of
    
    Volatility indicators: ATR, BB, and KC 
    
-   Momentum indicators: WR, RSI, SR, MFI, trix,cmo kst and ppo
+   Momentum indicators: WR, RSI, SR, MFI, TRIX,CMO, KST and PPO
    
-   Volume indicators: EMV, FI,OBV,cmf
+   Volume indicators: EMV, FI,OBV,CMF
    
-   Overlap indicators: hmw, tema
+   Overlap indicators: HMW, TEMA
 
 the code implements the pandas-ta library to calculate indicators using our yahoo finance dataframe. A feature selection is used to determine the best indicators for our model to create our 15X15 image that will be our input for our cnn. (explain) 
 
