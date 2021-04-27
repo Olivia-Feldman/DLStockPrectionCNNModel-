@@ -26,7 +26,7 @@ To generate our three class labels we use a window size of 11 days to determine 
 
 A period of 1-26 days was used to iterated through each indicator and storing data for each period. A feature selection method is then used to select the best indicators with respect to the time period. This is useful to determine which indicators at what time frame are best for our model. 
 
-The x_test and x_train are then reshaped to a 15x15 image that will be the input to the CNN model. 
+The x_trainand x_train are then reshaped to a 15x15 image that will be the input to the CNN model. 
 
 
 # Technical Indicators: 
