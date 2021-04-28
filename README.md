@@ -12,11 +12,12 @@ https://finance.yahoo.com/quote/QQQ/history?p=QQQ
 
 # Dependencies: 
  
-  * pandas -> used to extract stock data, 
-  * numpy ->  used to manipulate data 
-  * matplotlib -> used to plot data and images 
-  * Sklearn -> used to evalute model performance, feature selection and normalization of data 
-  * tensorflow.keras -> used to build CNN model 
+  * pandas -> library used to extract stock data, 
+  * numpy ->  library used to manipulate data 
+  * matplotlib -> library used to plot data and images 
+  * Sklearn -> library used to evalute model performance, feature selection and normalization of data 
+  * tensorflow.keras ->  library used to build CNN model 
+  * pandas_ta -> library is used to access their technical indicators 
 
 # Data Generation and Preprocessing: 
 
@@ -48,9 +49,13 @@ the code implements the pandas-ta library to calculate indicators using our yaho
 
 # Framework of Model 
 
+The model architect consists of a a CNN network with an input (804,15,15,3) training dimesnison  and output of (252,3). The CNN model consists of two Conv2d layers, one MaxPool2d layer, three Dropout layers, and two non-linear activation layers Relu and Softmax.  
+
 # Evaluation of Model 
 
+Two types of evaluation were considered for this model. The first was using a precision metric to determine how well the model did predicting each label of "buy", "hold and "sell". Two look at the precision of each class label we uesd  confusion Matrix, TP class counts ( for predicted and true) to evalute how well the model preformed. Precision was used instead of an accuracy metric because of the imbalance between classes. The "sell" label class accounted for almost 80% of class label distribution. 
 
+The second evaluation performend on the model was a financial evaluation to determine how well our model did at making money with the predicted labels. we 
 
 
 
