@@ -55,7 +55,7 @@ The model architect consists of a a CNN network with an input (804,15,15,3) trai
 
 Two types of evaluation were considered for this model. The first was using a precision metric to determine how well the model did predicting each label of "buy", "hold and "sell". Two look at the precision of each class label we uesd  confusion Matrix, TP class counts ( for predicted and true) to evalute how well the model preformed. Precision was used instead of an accuracy metric because of the imbalance between classes. The "sell" label class accounted for almost 80% of class label distribution. 
 
-The second evaluation performend on the model was a financial evaluation to determine how well our model did at making money with the predicted labels. we 
+The second evaluation performend on the model was a financial evaluation to determine how well our model did at making money with the predicted labels. Using the predicted labels we started at day one
 
 
 
