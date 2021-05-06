@@ -53,9 +53,12 @@ The model architect consists of a a CNN network with an input (804,15,15,3) trai
 
 # Evaluation of Model 
 
-Two types of evaluation were considered for this model. The first was using a precision metric to determine how well the model did predicting each label of "buy", "hold and "sell". Two look at the precision of each class label we uesd  confusion Matrix, TP class counts ( for predicted and true) to evalute how well the model preformed. Precision was used instead of an accuracy metric because of the imbalance between classes. The "sell" label class accounted for almost 80% of class label distribution. 
+Two types of evaluation were considered for this model. The first was using a precision metric to determine how well the model did predicting each label of "buy", "hold and "sell". Two look at the precision of each class label we uesd  confusion Matrix, TP class counts ( for predicted and true). We implemented our own accuracy metric tocorrectly determine the model accuracy for our imbalance class labels.  The "sell" label class accounted for almost 90% of class label distribution. 
 
-The second evaluation performend on the model was a financial evaluation to determine how well our model did at making money with the predicted labels. Using the predicted labels to determine whether to "buy", "hold",or "sell" stock. 
+The second evaluation performend on the model was a financial evaluation to determine how well our model did at making money with the predicted labels. A trading algorithm was implemented assuming USD currency, that the trading fractional shares were not restricted and their were no broker fees. The maximum trade size was 3000.00 and teh initial cash on hand was $10000.0 and initial number of shares was 0. 
+
+
+THe model had an accuracy of 74.603% and an financial evaluation  $3000.139 cash left on hand, 27.277 number of shares with a value of $8974.88 and a totla value of $11975.024. 
 
 
 
