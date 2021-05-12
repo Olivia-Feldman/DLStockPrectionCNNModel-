@@ -17,7 +17,7 @@ https://finance.yahoo.com/quote/QQQ/history?p=QQQ
   * matplotlib -> library used to plot data and images 
   * Sklearn -> library used to evalute model performance, feature selection and normalization of data 
   * tensorflow.keras ->  library used to build CNN model 
-  * pandas_ta -> library is used to access their technical indicators 
+
 
 # Data Generation and Preprocessing: 
 
