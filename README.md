@@ -44,7 +44,7 @@ Technical indicators were use extract import stock information over varations of
    
    Overlap indicators: HMW, TEMA
 
-the code implements the pandas-ta library to calculate indicators using our yahoo finance dataframe. A feature selection is used to determine the best indicators for our model to create our 15X15 image that will be our input for our cnn. (explain) 
+ A feature selection is used to determine the best indicators for our model to create our 15X15 image that will be our input for our cnn. (explain) 
 
 
 # Framework of Model 
@@ -68,6 +68,6 @@ THe model had an accuracy of 74.603% and an financial evaluation  $3000.139 cash
 
 [Stock Buy/Sell Prediction Using Convolutional Neural Network](https://towardsdatascience.com/stock-market-action-prediction-with-convnet-8689238feae3) - Toward data science article
 
-[pandas-ta library](https://github.com/twopirllc/pandas-ta) 
+
 
 
