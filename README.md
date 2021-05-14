@@ -1,17 +1,23 @@
 # HOW TO RUN:
 
-  1. Open demo.ipynb on main branch
-  2.  
-  3.
+  1. Open demo.ipynb on main branch in Google Colab
+      -  This file contains a demo of our 15x15 input CNN-LSTM training model
+      -  Also on the main branch are demos of the two other models we tested. They are titled:
+             -  demo_LSTM.ipynb
+             -  demo_CNN.ipynb
+  3. Set model to run on GPU
+  4. Run all the cell blocks
+  5. Wait patiently for the model to train. 
+      -  Graphs of the results can be seen at the bottom of the demo.ipynb file
 
 # Financial Trading with Deep CNN
 
-This python notebook implements a CNN to predict whether to buy,hold or sell stock using a time series to image conversion approach used in the paper listed below. The code is extened off of the ideas in the paper aswell as some deviations from other resources. 
+This python notebook implements a CNN-LSTM to predict whether to buy,hold or sell stock using a time series to image conversion approach similar to the paper listed below. The code is an extension of of the ideas in the paper as well as some deviations from other resources. 
 
 # Data: 
 
 Our code downloads price data with a HTTPS GET request and pulls the stock based on the ticker. 
-A CVS file of QQQ stock of one year is providede to visualize all the daily stock prices within that year.
+A CVS file of QQQ stock of one year is provided to visualize all the daily stock prices within that year.
 
 https://finance.yahoo.com/quote/QQQ/history?p=QQQ
 
@@ -32,7 +38,7 @@ To generate our three class labels we use a window size of 11 days to determine 
 
 A period of 1-26 days was used to iterated through each indicator and storing data for each period. A feature selection method is then used to select the best indicators with respect to the time period. This is useful to determine which indicators at what time frame are best for our model. 
 
-The x_trainand x_train are then reshaped to a 15x15 image that will be the input to the CNN model. 
+The x_train and x_test are then reshaped to a 15x15 image that will be the input to the CNN model. 
 
 
 # Technical Indicators: 
@@ -54,7 +60,7 @@ Technical indicators were use extract import stock information over varations of
 
 # Framework of Model 
 
-The model architect consists of a a CNN network with an input (804,15,15,3) training dimesnison  and output of (252,3). The CNN model consists of two Conv2d layers, one MaxPool2d layer, three Dropout layers, and two non-linear activation layers Relu and Softmax.  
+The model architect consists of a a CNN network with an input (none,15,15,3) training dimesnison  and output of (252,3). The CNN model consists of two Conv2d layers, one MaxPool2d layer, three Dropout layers, and two non-linear activation layers Relu and Softmax.  
 
 # Evaluation of Model 
 
