@@ -1,6 +1,6 @@
 # HOW TO RUN:
 
-  1. Open demo.ipynb on main branch in Google Colab
+  1. Open ***demo.ipynb*** on main branch in Google Colab
       -  This file contains a demo of our 15x15 input CNN-LSTM training model
       -  Also on the main branch are demos of the two other models we tested. They are titled:
           -  demo_LSTM.ipynb
